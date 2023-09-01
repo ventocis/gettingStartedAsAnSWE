@@ -10,7 +10,7 @@
 
 *   Prettier is a useful extension. You can set up prettier to automatically format on save. I would also suggest enabling the bracket pair colorization setting to help you spot mismatching brackets.
 
-**Shell:** Bash or ZSH
+**Shell:** Bash or ZSH (not Windows PowerShell)
 
 -   The shell is the program that runs in the terminal. I prefer ZSH because it has more useful completion. If you go with ZSH I would install [oh-my-zsh](https://ohmyz.sh/) with the [powerlevel10k theme](https://github.com/romkatv/powerlevel10k), but that is just my preference. The powerlevel10k theme gives some helpful visual indicators for git branching.
 -   Bash shells will be likely be used in the vast majority of servers that you use. Being familiar with bash shells is a must. ZSH & bash are similar enough that if you're familiar with ZSH you will be good on bash shells as well
