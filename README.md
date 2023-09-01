@@ -2,7 +2,7 @@
 
 ## Dev Environment Recommendations
 
-> Learning to read documentation is a skill that will serve you well. I recommend trying to read documentation before going to Stack Overflow, Medium, etc. You can easily find the documentation for pretty much anything by googling it.
+> Learning to read documentation is a skill that will serve you well. If you are trying to learn about how to connect to an API, use a library, or syntax for a specific language reading the documentation is the best place to start. If you hit an error that you're not familiar with or just aren't sure how to do something then StackOverflow can be a good resource.
 
 **Code editor:** VS Code
 
@@ -17,10 +17,18 @@
 
 ## Concepts to Learn
 
-**Language:** I recommend learning Javascript for your first language. A lot of people may make jokes about Javascript and there is truth to them, but according to Stack Overflow's 2022 Developer Survey it was the most used language for 10 years in a row. There are a lot of jobs for Javascript & the compensation is good with the right tech company.
+**Language:** I recommend learning Javascript for your first language. A lot of people may make jokes about Javascript and there is truth to them, but according to Stack Overflow's 2022 Developer Survey it was the most used language for 10 years in a row. There are a lot of jobs for Javascript & the compensation is good with the right tech company. JavaScript is commonly used in both the front end & back end.
 
--   Good courses
-    -   [Beginner Javascript](https://beginnerjavascript.com/) - I haven't taken this class, but I have taken other classes from Wes & thought they were good.
+-   Free Resources:
+    - [This Reddit thread](https://www.reddit.com/r/learnjavascript/comments/w4tlz7/whats_the_best_website_to_learn_js_on_for_free/) has a list of free resources  
+    - [Was Bos's Javascript 30](https://javascript30.com/) is a Javascript course that goes over interacting with the web page & assumes you have Javascript experience.
+    - MDN - MDN has _great_ docs & should be utilized over Medium & other websites if you have a questions about a Javascript specific thing. If you don't understand it after reading MDN then reading Stack Overflow can sometimes help
+    - Stack Overflow - If you have a more generic question or you hit an error in your code that you don't know how to solve, google it! Stack Overflow will likely be the site that has the most helpful answer. Try to understand the answer & not just copy & paste it.
+    - You can always just start with an idea of something to code & use MDN to learn. Some useful items to google:
+      - To make a website - "How to make a beginner React and Express website" (this will use Node on the back end)
+      - To make some sort of automation that doesn't have a UI - "How to write a Node program for beginners"
+-   Good paid courses
+    -   [Beginner Javascript](https://beginnerjavascript.com/) - I haven't taken this class, but I have taken other classes from Wes & thought they were good. Use code JAVASCRIPT30 for $10 off
     -   [Javascript: The Hard Parts, V2](https://frontendmasters.com/courses/javascript-hard-parts-v2/) - This course goes into concepts that are easy to miss when learning Javascript.
 -   Add on JS tech
     -   Node - Javascript was written for browsers. Node provides a run time environment that allows Javascript to run outside of a brower. It is used for most JS servers.
@@ -34,7 +42,9 @@
     -   [Atlassian's git tutorial](https://www.atlassian.com/git/tutorials) - You can ignore the parts specific to SVN, Perforce, & Bitbucket Cloud
     -   [Git documentation](https://git-scm.com/book/en/v2) - Git's documentation is hard to understand, so using some other websites may be helpful.
 
-**Databases:** The more familiar you are with them the better. I would focus first on learning SQL because it is used in many databases.
+**Databases:** The more familiar you are with them the better. I would focus first on learning SQL because it is used in many databases. There are two categories of databases: SQL & NoSQL. NoSQL databases are easier to learn in my opinion, but SQL is an integral component of being a full stack engineer. Here are the most popular ones:
+-   MongoDB: NoSQL
+-   Postgres: SQL
 
 **Shell:** The following commands are essential commands to know for bash or ZSH shells:
 
@@ -54,6 +64,6 @@
     -   Your code should be self documenting. You can make it self documenting by using good variable & function names
     -   [Write comments only when they are useful](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/)
 
-*   I found [Clean Code by Robert Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) to give a helpful guide on how to write clean code
+*   I found [Clean Code by Robert Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) helpful as a guide on how to write clean code, but it requires an understanding of Java
 
 **Other Notes:** The Stack Overflow Developer Survey is a great reference to determine what languages you want to learn, what you can expect for compensation, and many other items.
